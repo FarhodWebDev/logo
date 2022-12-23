@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: $main-font-family;
+  font-size: $main-font-size;
+  line-height: $main-font-height;
+  color: $black-color-1;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+}
+
+span {
+  font-size: 1.1rem;
+  background: #3b79c3;
+  border-radius: 2px;
+  color: $white-color;
+  padding: 0 0.5rem;
+}
+
+em{
+  font-weight: 100;
+}
+
+button,
+.btn {
+  cursor: pointer;
+}
+
+.container {
+  width: 100%;
+  max-width: 1252px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
